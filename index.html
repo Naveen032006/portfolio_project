@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Naveenkumar | Portfolio</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+
+  <div id="particles-js"></div>
+
+  <main>
+    <!-- Header -->
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="intro-text">
+        <h1>Hi There,<br>I'm <span class="orange">Naveenkumar</span></h1>
+        <p>I Am An Aspiring <span id="typed" class="red"></span></p>
+        <a href="#about" class="btn">About Me <i class="fas fa-arrow-down"></i></a>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/naveenkumar0320/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Naveen032006" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:naveenkumar03202006@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="gobi.png" alt="Gobika Profile Image" />
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <div class="about-img">
+          <img src="naveen.jpg" alt="Gobika" />
+        </div>
+        <div class="about-text">
+          <h2><i class="fas fa-user"></i> About <span style="color:#6c63ff;">Me</span></h2>
+          <h3>I'm <span class="name-purple">Naveenkumar</span></h3>
+          <p class="title">Aspiring Data Scientist</p>
+          <p>I’m an enthusiastic undergraduate student in <strong>Artificial Intelligence and Data Science</strong> at <strong>MIT, Anna University</strong>. I love building smart systems and solving real-world problems using <strong>Machine Learning</strong>, <strong>Data Science</strong>, and <strong>Python</strong>.</p>
+          <p>I also enjoy working on web-based projects using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, and I’m exploring tools like <strong>Streamlit</strong> to bring data to life.</p>
+          <p>I’m always excited to learn, create, and contribute to meaningful projects.</p>
+          <p><strong>E-Mail:</strong> <a href="mailto:naveenkumar03202006@gmail.com">naveenkumar03202006@gmail.com</a></p>
+          <p><strong>Place:</strong> Chennai, Tamil Nadu – 600044</p>
+          <a href="resumecuic.pdf" class="btn" download>
+            Resume <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills-section slide-down">
+      <h2><i class="fas fa-laptop-code"></i> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><img src="icons/python.jpg" alt="">Python</div>
+        <div class="skill-card"><img src="icons/c.jpg" alt="">C</div>
+        <div class="skill-card"><img src="icons/cpp.jpg" alt="">C++</div>
+        <div class="skill-card"><img src="icons/html.jpg" alt="">HTML</div>
+        <div class="skill-card"><img src="icons/css.jpg" alt="">CSS</div>
+        <div class="skill-card"><img src="icons/js.jpg" alt="">JavaScript</div>
+        <div class="skill-card"><img src="icons/excel.jpg" alt="">MS Excel</div>
+        <div class="skill-card"><img src="icons/powerbi.jpg" alt="">Power BI</div>
+        <div class="skill-card"><img src="icons/ml.jpg" alt="">Machine Learning</div>
+        <div class="skill-card"><img src="icons/cv.jpg" alt="">Computer Vision</div>
+      </div>
+    </section>
+    <!-- Education -->
+<section id="education" class="education-section">
+  <h2><i class="fas fa-graduation-cap"></i> My <span style="color: #7e22ce;">Education</span></h2>
+
+  <div class="edu-card">
+    <img src="college.jpg" alt="College Image" class="edu-img" />
+    <div class="edu-content">
+      <h3>Bachelor Of Technology In Artificial Intelligence And Data Science</h3>
+      <p>Madras institute of technology,Anna University | Chennai</p>
+      <p class="status pursuing">2023 - 2027| Pursuing</p>
+    </div>
+  </div>
+
+  <div class="edu-card">
+    <img src="kennedy.jpeg" alt="School Image" class="edu-img" />
+    <div class="edu-content">
+      <h3>Higher Secondary | Biology</h3>
+      <p>Kennedy Matric Higher Secondary School | Rettanai</p>
+      <p class="status completed">2021 - 2023 | Completed</p>
+    </div>
+  </div>
+</section>
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <h2><i class="fas fa-laptop-code"></i> Projects <span class="highlight-yellow">Made</span></h2>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <img src="weopon.jpeg" alt="Weapon Detection project" />
+      <div class="project-title">Weopon Detection Project</div>
+      <div class="project-overlay">
+        <p>An AI-powered Weapon Detection System using computer vision and machine learning that achieves up to 90.95% accuracy in weapon classification and utilizes YOLOv5 for real-time detection with a detection rate of 83%, enhancing public safety through automated surveillance..</p>
+        <a href="https://github.com/Naveen032006/weapon-detection-project-" class="btn-view"><i class="fas fa-eye"></i> View</a>
+      </div>
+    </div>
+    
+    <div class="project-card">
+      <img src="fake.jpeg" alt="Fake News Detection" />
+      <div class="project-title">Fake News Detection System</div>
+      <div class="project-overlay">
+        <p>Web app using TF-IDF & Logistic Regression (Flask, NLP). 92% accuracy.</p>
+        <a href="https://github.com/gobi2001-2006/Brainwave_Matrix_Intern" class="btn-view"><i class="fas fa-eye"></i> View</a>
+      </div>
+    </div>
+    
+
+    <div class="project-card">
+      <img src="alumni.jpg" alt="Alumni Database" />
+      <div class="project-title">Alumni DB Management System</div>
+      <div class="project-overlay">
+        <p>Flask + Oracle SQL backend with CRUD and login authentication via REST API.</p>
+        <a href="#" class="btn-view"><i class="fas fa-eye"></i> View</a>
+      </div>
+    </div>
+    
+    <div class="project-card">
+  <img src="movie.jpeg" alt="Movie Recommendation System">
+  <div class="project-title">Movie Recommendation System</div>
+  <div class="project-overlay">
+    <p>Built with Python, Pandas, and Streamlit, this system recommends movies based on user selection using cosine similarity on movie features.</p>
+    <a href="https://github.com/gobi2001-2006/movie_recommend_sys" target="_blank" class="btn-view">View Project</a>
+  </div>
+  
+</div>
+
+
+    <div class="project-card">
+      <img src="bank.jpeg" alt="Contact Management System" />
+      <div class="project-title">Bank Management System</div>
+      <div class="project-overlay">
+        <p>C++ project using: OOP (Classes, Objects, Encapsulation, Inheritance), Data Structures (Linked List).</p>
+        <a href="https://github.com/Naveen032006/Bank-management-system/blob/main/Bank%20Management%20System.docx" class="btn-view"><i class="fas fa-eye"></i> View</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <p>
+        Thank you for visiting my personal portfolio website. Connect with me over socials.
+      </p>
+      <p>
+        Ready to turn ideas into impact? Let's build something extraordinary! ✨
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home"><i class="fas fa-caret-right"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-caret-right"></i> About</a></li>
+        <li><a href="#skills"><i class="fas fa-caret-right"></i> Skills</a></li>
+        <li><a href="#education"><i class="fas fa-caret-right"></i> Education</a></li>
+        <li><a href="#work"><i class="fas fa-caret-right"></i> Work</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Contact Info</h3>
+      <p><i class="fas fa-envelope"></i> naveenkumar03202006@gmail.com</p>
+      <p><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu – 600044</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/naveenkumar0320/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Naveen032006" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:naveenkumar03202006@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTopBtn"><i class="fas fa-chevron-up"></i></button>
+</footer>
+
+
+
+
+  </main>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
